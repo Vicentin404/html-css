@@ -1,0 +1,55 @@
+h1 { /*box-level*/
+    
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid darkslategray;
+    /*
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkgray;
+    */
+
+    padding: 10px 10px 10px 10px;
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    ou 
+
+    padding: 10px (Quando os 4 lados forem iguais)
+    */
+    margin: 20px auto 40px auto;
+    /*
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+
+    para centralizar posso fazer da seguinte forma
+
+    margin: 20px auto 40px auto;
+
+    ou
+
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;    
+    */
+
+    outline: 5px dashed salmon;
+    /*
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+    */
+}
+
+a { /*inline-level*/
+    border: 10px solid red;
+    padding: 10px;
+}

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(fontes/BebasNeue-Regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #84E1AD;
+    margin: 0;
+    padding: 0;    
+}
+
+.cabecalho {
+    background-image: linear-gradient(to bottom, #3BD17F, #1A5C38);
+    color: white;
+    text-align: center;
+    padding: 45px;
+    width: 100%;
+}
+
+.menu {
+    text-decoration: none;
+    margin-right: 550px;
+    text
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+.corpo {
+    background-color: white;
+    padding: 10px;
+    width: 65%;
+    margin: auto;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 1px 1px 2px rgb(170, 168, 168);
+}
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    }
+
+.coluna-50 {
+    width: 50%;
+}
+
+.yt {
+    justify-content: center;
+    display: flex;
+    background: #1A5C38;
+    padding: 20px;
+}
+
+h2, h3 {
+    font-family: idroid;
+    color: white;
+    background: linear-gradient(to right, rgba(0, 128, 0, 0.712), rgb(255, 255, 255));
+    width: 90%;
+    padding: 6px;
+}
+
+ul {
+    list-style: none;
+}
+  
+ul li:before {
+    content: '✓';
+}
+
+.c1 {
+    background: #2FA866;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+    margin: -17px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;      
+}
+
+.tabela {
+    background: #C5EBD6;
+    box-sizing: border-box;
+    padding: 16px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 1px 1px 2px #7a9486;
+}
+
+.rodape {
+    background: darkgreen;
+    width: 100%;
+    height: 30px;
+    color: white;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.paragrafo-titulo {    
+    text-align: center;
+    width: 40%;
+    margin: 0px;
+}
+
+.titulo {
+    font-family: 'Bebas Neue';
+    font-size: 35px;
+}
